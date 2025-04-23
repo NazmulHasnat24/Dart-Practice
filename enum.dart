@@ -9,7 +9,7 @@ enum week{
 }// enum evabe lilkhe 
 
 main(){
-  week Today = week.Sat;
+  week Today = week.Sun;
   if(Today == week.Sun){
     print("Party time");
   }
