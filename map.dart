@@ -1,20 +1,20 @@
 main(){
+  Map <String,String> country = {
+    'Bangladesh': 'Dhaka',
+    'America'   : 'Washington',
+    'Russia'    : 'Petersburg',
+  };
+print(country);
 
-  //basic map
-  Map<String,int> studentmarks = {'Esti': 60,
-  'aba': 30,
-  'bc' : 50,};
-  print(studentmarks);
+// adding country
+country['Pakistan'] = 'Karachi';
+print(country);
 
-  //removing 
+// updating country
+country['Bangladesh'] = 'Chittagong';
+print(country);
 
-  studentmarks.remove('bc');
-  print(studentmarks);
-
-  //adding
-  studentmarks['Rahim'] = 90;
-  print(studentmarks);
-
-  // accessing value
-  print(studentmarks['Esti']);
+//removing country
+country.remove('Russia');
+print(country);
 }
