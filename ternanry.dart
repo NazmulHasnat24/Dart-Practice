@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'dart:io';
 main(){
   print("Enter age here:");
