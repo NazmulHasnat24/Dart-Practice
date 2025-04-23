@@ -12,5 +12,7 @@ main(){
   print("Enter a number:");
   String ? input = stdin.readLineSync();
   int num3 = int.parse(input!);
-  print("The number is $num3");
+  print("Enter a number:");
+  int num4 = int.parse(input!);
+  print("The number is ${num3+num4}");
 }
